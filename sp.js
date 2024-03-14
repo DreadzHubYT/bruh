@@ -1,7 +1,8 @@
-function getLinkSource() {
+function redirectToLink() {
     var linkSource = "https://example.com";
-    return linkSource;
+    window.location.href = linkSource;
 }
+
 
 var link = getLinkSource();
 console.log(link);
